@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Reguler';
+    src: url('Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Black';
+    src: url('Roboto-Black.ttf');
+}
+
+:root {
+    --text-color-white: #fff !important;
+    --text-color-black: #333333 !important;
+    --text-color-blue: #4facfe !important;
+    
+    --bg-color-white: #fff !important;
+    --bg-color-black: #333333 !important;
+    --bg-color-blue: #4facfe !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Reguler';
+    font-size: 1rem;
+    color: var(--text-color-black);
+    background-color: var(--bg-color-white);
+}
+
+ul {
+    list-style: none;
+}
+
+.custom-navbar {
+    background: rgba(255, 255, 255, 0.719);
+    backdrop-filter: blur(10px);
+}
+
+#navbar {
+    transition: 0.3s;
+}
+
+.navbar-brand > img {
+    width: 40px;
+}
+
+.nav-link {
+    color: var(--text-color-black) !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--text-color-blue) !important;
+    transition: 0.3s;
+}
+
+.section-1 {
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.section-1-main {
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    color: #c7e1f8;
+}
+
+.section-1-main > h1 {
+    font-family: 'Reguler';
+    margin:0 0 3px 0 !important;
+}
+
+.center-advokom {
+    font-size: 3em;
+}
+
+.bem {
+    font-size: 2em;
+}
+
+.stia {
+    font-size: 1.5em;
+}
+
+.section-1-main > .text {
+    font-family: 'Reguler';
+    margin: 40px 0 0 0;
+    width: 900px;
+}
+
+.bg-section-1 {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+
+.section-2, 
+.section-3 {
+    margin: 50px 0 50px 0;
+    padding: 50px 0;
+}
+
+.section-2 .container > .judul, 
+.section-3 .container > .judul {
+    font-family: 'Bold';
+}
+
+.section-2 .container > .text, 
+.section-3 .container > .text {
+    font-family: 'Reguler';
+    margin: 0 0 40px 0;
+}
+
+.foother {
+ margin: 50px 0 0 0;   
+}
+
+.foother-main {
+    padding: 50px 0;
+}
+
+.foother-logo {
+    width: 50px;
+}
+
+.list-left > ul {
+    padding: 0;
+}
+
+.list-left > ul > li > ul {
+    padding: 0;
+}
+
+.list-left > ul > li > ul > li {
+    display: inline-block;
+}
+
+.list-left > ul > li > ul > li:first-child {
+    margin: 0 10px 0 0;
+}
+
+.foother-left-slogan > p {
+    font-family: 'Reguler';
+    margin: 20px 0 0 0;
+}
+
+.foother-left-slogan > p > span {
+    font-family: 'Bold';
+    font-size: 1.1em;
+}
+
+.foother-line {
+    height: 2px;
+    width: 200px;
+    background-color: var(--bg-color-black);
+    margin: 20px 0 20px 0;
+    opacity: 0.15;
+}
+
+.foother-nav li > a {
+    font-family: 'Reguler';
+    text-decoration: none;
+    color: var(--text-color-black);
+    transition: 0.3s;
+}
+
+.foother-nav li > a:hover {
+    color: var(--text-color-blue);
+    transition: 0.3s;
+}
+
+.contact-us {
+    font-family: 'Bold';
+    font-size: 1.1em;
+}
+
+.alamat {
+    font-family: 'Reguler';
+}
+
+.email {
+    font-family: 'Reguler';
+    text-decoration: none;
+    color: var(--text-color-black);
+    transition: 0.3s;
+}
+
+.email:hover {
+    color: var(--text-color-blue);
+    transition: 0.3s;
+}
+
+.sosmed {
+    margin: 50px 0 0 0;
+}
+
+.sosmed > ul > li {
+    display: inline-block;
+}
+
+.sosmed > ul > li:nth-child(2) {
+    margin: 0 20px;
+}
+
+.logo-ig,
+.logo-yt,
+.logo-tw {
+    width: 30px;
+}
+
+.logo-ig {
+    width: 25px;
+}
